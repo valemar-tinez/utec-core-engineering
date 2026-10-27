@@ -26,3 +26,9 @@ Se utiliza @property para consultar el tamaño y @size.setter para actualizarlo.
 
 El método area() devuelve el área del cuadrado.
 
+## Ejercicio 5: Imprimir un cuadrado
+
+Implementación de una clase Square con un atributo privado __size, acceso controlado mediante getter y setter, validación del tamaño y un método area() para calcular el área del cuadrado.
+
+Se incorpora el método público my_print(), que imprime un cuadrado utilizando el carácter #, con tantas filas y columnas como indique su tamaño. Si el tamaño es cero, imprime una línea vacía.
+
