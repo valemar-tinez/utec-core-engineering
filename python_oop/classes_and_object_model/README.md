@@ -43,3 +43,9 @@ Se incorpora el método especial __str__() para representar el cuadrado como una
 Implementación de una clase Rectangle con dos atributos privados, __width y __height, que representan el ancho y el alto del rectángulo. Ambos se inicializan mediante el constructor __init__() y tienen un valor predeterminado de cero.
 
 Se incorporan getters y setters mediante @property para consultar y modificar ambos atributos de forma controlada. Los setters verifican que los valores sean números enteros mayores o iguales a cero, generando las excepciones correspondientes cuando no cumplen las condiciones.
+
+## Ejercicio 9: Área y perímetro
+
+Implementación de una clase Rectangle con atributos privados __width y __height, inicializados mediante el constructor __init__(). Se mantienen los getters y setters que permiten consultar y modificar las dimensiones, validando que sean números enteros mayores o iguales a cero.
+
+Se incorporan los métodos area() y perimeter() para calcular el área y el perímetro del rectángulo. El área se obtiene multiplicando el ancho por el alto, mientras que el perímetro se calcula sumando el doble de ambas dimensiones. Si alguna dimensión es cero, el perímetro devuelve cero.
