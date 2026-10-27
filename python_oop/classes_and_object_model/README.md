@@ -37,3 +37,9 @@ Se incorpora el método público my_print(), que imprime un cuadrado utilizando 
 Implementación de una clase Square con atributos privados __size y __position, acceso controlado mediante getters y setters, validación de valores y un método area() para calcular el área del cuadrado.
 
 Se incorpora el método especial __str__() para representar el cuadrado como una cadena de caracteres #, considerando su posición horizontal y vertical. El método my_print() imprime esa representación y, si el tamaño es cero, muestra una línea vacía.
+
+## Ejercicio 8: Clase Rectángulo
+
+Implementación de una clase Rectangle con dos atributos privados, __width y __height, que representan el ancho y el alto del rectángulo. Ambos se inicializan mediante el constructor __init__() y tienen un valor predeterminado de cero.
+
+Se incorporan getters y setters mediante @property para consultar y modificar ambos atributos de forma controlada. Los setters verifican que los valores sean números enteros mayores o iguales a cero, generando las excepciones correspondientes cuando no cumplen las condiciones.
