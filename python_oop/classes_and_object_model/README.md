@@ -18,3 +18,11 @@ Creación de una clase Square con un atributo privado __size y validación del t
 
 Implementación de una clase Square con un atributo privado __size y validación del tamaño.Se agrega el método de instancia area(), que calcula y devuelve el área del cuadrado elevando el tamaño al cuadrado.
 
+## Ejercicio 4: Acceder y actualizar un atributo privado
+
+Implementación de una clase Square con un atributo privado __size y acceso controlado mediante getter y setter.
+
+Se utiliza @property para consultar el tamaño y @size.setter para actualizarlo. El setter valida que el tamaño sea un número entero mayor o igual a cero.
+
+El método area() devuelve el área del cuadrado.
+
