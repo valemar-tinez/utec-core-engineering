@@ -19,3 +19,9 @@ Se reutiliza el método heredado integer_validator() para comprobar que ambas di
 Implementación de una clase Rectangle que hereda de BaseGeometry y representa un rectángulo mediante los atributos privados __width y __height. Ambas dimensiones se inicializan en el constructor y se validan utilizando el método heredado integer_validator().
 
 Se incorpora el método area() para calcular la superficie del rectángulo multiplicando el ancho por la altura, y el método especial __str__() para mostrar su representación mediante el formato [Rectangle] width/height. Esta implementación permite aplicar los conceptos de herencia y polimorfismo.
+
+## Ejercicio 4: Cuadrado #1
+
+Implementación de una clase Square que hereda de Rectangle y representa un cuadrado mediante el atributo privado __size. El tamaño se valida utilizando el método heredado integer_validator(), garantizando que sea un número entero mayor que cero.
+
+Se utiliza super().__init__() para inicializar el ancho y la altura del rectángulo con el mismo valor, reutilizando la funcionalidad de la clase padre. Se implementa el método area() para calcular la superficie del cuadrado y se hereda la representación en cadena definida en Rectangle.
