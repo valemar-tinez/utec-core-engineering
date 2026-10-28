@@ -13,3 +13,9 @@ Ejercicio 2: Rectángulo
 Implementación de una clase Rectangle que hereda de BaseGeometry y representa un rectángulo mediante dos atributos privados, __width y __height, inicializados a través del método __init__().
 
 Se reutiliza el método heredado integer_validator() para comprobar que ambas dimensiones sean números enteros mayores que cero, evitando duplicar la lógica de validación y aplicando el principio de reutilización de código mediante herencia.
+
+## Ejercicio 3: Rectángulo completo
+
+Implementación de una clase Rectangle que hereda de BaseGeometry y representa un rectángulo mediante los atributos privados __width y __height. Ambas dimensiones se inicializan en el constructor y se validan utilizando el método heredado integer_validator().
+
+Se incorpora el método area() para calcular la superficie del rectángulo multiplicando el ancho por la altura, y el método especial __str__() para mostrar su representación mediante el formato [Rectangle] width/height. Esta implementación permite aplicar los conceptos de herencia y polimorfismo.
