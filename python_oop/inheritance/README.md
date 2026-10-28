@@ -8,4 +8,8 @@ Implementación de una clase BaseGeometry que proporciona una estructura común 
 
 Se incorpora el método integer_validator(), que verifica que un valor sea un número entero mayor que cero y genera las excepciones TypeError o ValueError cuando no cumple las condiciones. Esta validación podrá reutilizarse mediante herencia en otras clases geométricas.
 
+Ejercicio 2: Rectángulo
 
+Implementación de una clase Rectangle que hereda de BaseGeometry y representa un rectángulo mediante dos atributos privados, __width y __height, inicializados a través del método __init__().
+
+Se reutiliza el método heredado integer_validator() para comprobar que ambas dimensiones sean números enteros mayores que cero, evitando duplicar la lógica de validación y aplicando el principio de reutilización de código mediante herencia.
